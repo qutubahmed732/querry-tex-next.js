@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+.logo-small-size {
+    @media(max-width: 1034px) {
+        width: 130px;
+    }
+}
+
+.nav-font-small {
+    @media(max-width: 1034px) {
+        font-size: 14px;
+        gap: 20px;
+    }
+}
+
+.flex-direction {
+    flex-direction: row;
+    @media(max-width: 1043px) {
+        flex-direction: column;
+    }
+}
+
+.display-none {
+    display: block;
+    @media(max-width: 1043px) {
+        display: none;
+    }
+}
+
+.width-change-1043 {
+    padding-top: 80px;
+    width: 60%;
+    @media(max-width:1043px) {
+        width: 100%;
+    }
+}
+.width-change {
+    width: 60%;
+    @media(max-width:1043px) {
+        width: 100%;
+    }
+}
+
+.change-width {
+    width: 50%;
+    @media(max-width: 1043px) {
+        width: 100%;
+    }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
