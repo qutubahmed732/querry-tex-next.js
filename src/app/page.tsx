@@ -1,5 +1,8 @@
+"use client";
+
 import Navbar from "./components/Navbar";
-import BackToTopButton from "./components/BacktoTop/BacktotopBtn";
+import Toptext from "./components/TopText";
+import Footer from "./components/Footer";
 
 import HeroImage from "./landingpage-images/Hero-image.png";
 import Image from "next/image";
@@ -23,17 +26,15 @@ import confetti from "./landingpage-images/confetti.png";
 
 import formImage from "./landingpage-images/form-bg-image.png";
 import newsLetterImage from "./landingpage-images/news-letter-image.png";
-import location from "./landingpage-images/location.png";
-import gmail from "./landingpage-images/gmail.png";
 
-import { MoveRight, Phone } from "lucide-react";
+import { MoveRight } from "lucide-react";
 
 export default function Home() {
   return (
     <>
 
       {/* Header Section + Brand Logo's */}
-      <div className="bg-[#222222] text-center text-balance font-[400] text-white py-2 cursor-pointer text-sm md:text-xl">Visit our other businesses Quarry Tex Signs and Quarry Tex Design</div>
+      <Toptext />
       <header className="relative w-full min-h-svh">
         <Navbar />
         <Image
@@ -308,41 +309,7 @@ export default function Home() {
 
       </main>
 
-      <footer className="bg-[#339933] text-white px-5 md:px-20 pt-15 pb-10">
-        <div className="flex flex-direction justify-between gap-10">
-
-          {/* Left */}
-          <div className="width-change flex flex-col gap-7">
-            <h1 className="text-4xl font-bold">Quarry Tex Vehicle Wraps</h1>
-            <ul className="flex flex-col gap-5">
-              <li className="flex items-center gap-3"><Phone fill="white" /><span>908-322-8488</span></li>
-              <li className="flex items-center gap-3"><Image src={location} alt="location pin logo" /><span>1998 US HWY 22 SCOTCH PLAINS NJ 07076</span></li>
-              <li className="flex items-center gap-3"><Image src={gmail} className="h-5" alt="gmail logo" /><span>info@quarrytex.com</span></li>
-            </ul>
-          </div>
-
-          {/* Right */}
-          <div className="width-change flex justify-start md:justify-around gap-2 text-xl sm:text-3xl font-semibold">
-            <ul className="w-1/2 flex flex-col gap-4">
-              <li>Servies</li>
-              <li>Our Work</li>
-              <li>Process</li>
-              <li>Careers</li>
-              <li>FAQs</li>
-            </ul>
-            <ul className="w-1/2 flex flex-col gap-4">
-              <li>Get a Quote</li>
-              <li>Contact Us</li>
-              <li>Terms of Services</li>
-              <li>Privacy Policy</li>
-            </ul>
-          </div>
-        </div>
-
-        <p className="text-xl mt-10">Copyright © {new Date().getFullYear()} Quarry Tex Inc. All rights reserved.</p>
-
-        <BackToTopButton />
-      </footer>
+      <Footer />
     </>
   );
 }
