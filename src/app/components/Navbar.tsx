@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -9,6 +10,7 @@ import { Phone, Facebook, Instagram, MenuSquare, X } from "lucide-react";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     // jab menubar open ho
@@ -40,11 +42,11 @@ export default function Navbar() {
           </Link>
 
           <ul className="hidden md:flex items-center gap-10 text-white text-xl font-semibold nav-font-small">
-            <li className="cursor-pointer"><Link href="../services">Services</Link></li>
-            <li className="cursor-pointer">Our Work</li>
-            <li className="cursor-pointer">Process</li>
-            <li className="cursor-pointer">Careers</li>
-            <li className="cursor-pointer">Get a Quote</li>
+            <li className={`cursor-pointer ${pathname === "/services" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../services">Services</Link></li>
+            <li className={`cursor-pointer ${pathname === "/workpage" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../workpage">Our Work</Link></li>
+            <li className={`cursor-pointer ${pathname === "/process" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Process</li>
+            <li className={`cursor-pointer ${pathname === "/careers" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Careers</li>
+            <li className={`cursor-pointer ${pathname === "/getaquote" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Get a Quote</li>
           </ul>
 
           <div className="social hidden md:flex items-center gap-5 text-white font-semibold nav-font-small">
@@ -81,8 +83,8 @@ export default function Navbar() {
 
           <div className="middle-side mt-5">
             <ul className="flex flex-col items-center gap-5 text-xl font-semibold p-3">
-              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="/services">Services</Link></li>
-              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Our Work</li>
+              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../services">Services</Link></li>
+              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../workpage">Our Work</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Process</li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Careers</li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Contact</li>

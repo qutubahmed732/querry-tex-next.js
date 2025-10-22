@@ -10,35 +10,35 @@ import Image from "next/image";
 import { Check } from "lucide-react";
 
 // bg-image
-import heroImage from "../ServicesPage-images/hero-image.png";
-import bgImage from "../ServicesPage-images/bg-image.png";
+import heroImage from "./ServicesPage-images/hero-image.png";
+import bgImage from "./ServicesPage-images/bg-image.png";
 
 // vehicle images
-import sedan from "../ServicesPage-images/Sedan.png";
-import boxTruck from "../ServicesPage-images/Box-Truck.png";
-import utilityTrailer from "../ServicesPage-images/Utility-Trailer.png";
-import trailer from "../ServicesPage-images/Trailer.png";
-import crane from "../ServicesPage-images/Crane.png";
-import topVan from "../ServicesPage-images/Hi-Top-Van.png";
-import pickupTruck from "../ServicesPage-images/Pickup-Truck.png";
-import utilityPickup from "../ServicesPage-images/Utility-Pickup.png";
-import utilityTruck from "../ServicesPage-images/Utility-Truck.png";
-import suv from "../ServicesPage-images/SUV.png";
-import compactVan from "../ServicesPage-images/Compact-Van.png";
-import cargoVan from "../ServicesPage-images/Cargo-Van.png";
+import sedan from "./ServicesPage-images/Sedan.png";
+import boxTruck from "./ServicesPage-images/Box-Truck.png";
+import utilityTrailer from "./ServicesPage-images/Utility-Trailer.png";
+import trailer from "./ServicesPage-images/Trailer.png";
+import crane from "./ServicesPage-images/Crane.png";
+import topVan from "./ServicesPage-images/Hi-Top-Van.png";
+import pickupTruck from "./ServicesPage-images/Pickup-Truck.png";
+import utilityPickup from "./ServicesPage-images/Utility-Pickup.png";
+import utilityTruck from "./ServicesPage-images/Utility-Truck.png";
+import suv from "./ServicesPage-images/SUV.png";
+import compactVan from "./ServicesPage-images/Compact-Van.png";
+import cargoVan from "./ServicesPage-images/Cargo-Van.png";
 
 // All services section images
-import graphicDesignImage from "../ServicesPage-images/graphic-design-image.png";
-import commercialImage from "../ServicesPage-images/commercial-fleet-vehicle.png";
-import cocoTruck from "../ServicesPage-images/coco-truck.png";
-import partialVehicle from "../ServicesPage-images/partial-vehicle.png";
-import lettringVehicle from "../ServicesPage-images/lettering-vehicle.png";
-import spotGraphics from "../ServicesPage-images/spot-graphics.png";
-import accidentRepair from "../ServicesPage-images/accident-repair.png";
-import seasonalVehicle from "../ServicesPage-images/seasonal-vehicle.png";
+import graphicDesignImage from "./ServicesPage-images/graphic-design-image.png";
+import commercialImage from "./ServicesPage-images/commercial-fleet-vehicle.png";
+import cocoTruck from "./ServicesPage-images/coco-truck.png";
+import partialVehicle from "./ServicesPage-images/partial-vehicle.png";
+import lettringVehicle from "./ServicesPage-images/lettering-vehicle.png";
+import spotGraphics from "./ServicesPage-images/spot-graphics.png";
+import accidentRepair from "./ServicesPage-images/accident-repair.png";
+import seasonalVehicle from "./ServicesPage-images/seasonal-vehicle.png";
 
 // additional branding service image
-import additionalBrandImage from "../ServicesPage-images/serviec-brandingsection-image.png";
+import additionalBrandImage from "./ServicesPage-images/serviec-brandingsection-image.png";
 
 import wrapCarImage from "../landingpage-images/wrap-section-image.png";
 import confetti from "../landingpage-images/confetti.png";

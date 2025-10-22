@@ -2,7 +2,7 @@
 
 import Navbar from "./components/Navbar";
 import Toptext from "./components/TopText";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer.tsx";
 
 import HeroImage from "./landingpage-images/Hero-image.png";
 import Image from "next/image";

@@ -1,5 +1,5 @@
 // components
-import BackToTopButton from "../components/BacktotopBtn";
+import BackToTopButton from "./BacktotopBtn";
 import Image from "next/image";
 
 // small icons
