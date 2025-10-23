@@ -73,6 +73,7 @@ export default function Navbar() {
                   src={logo}
                   alt="Company Logo"
                   priority
+                  placeholder="blur"
                 />
               </Link>
             </div>

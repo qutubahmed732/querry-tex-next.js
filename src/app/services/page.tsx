@@ -55,6 +55,7 @@ export default function Services() {
           src={heroImage}
           alt="Hero image"
           priority
+          placeholder="blur"
         />
 
         <section className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl flex flex-col items-start md:items-center gap-10 pl-6 md:pl-6">
@@ -81,72 +82,84 @@ export default function Services() {
               src={sedan}
               alt="sedan vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={boxTruck}
               alt="boxTruck vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={utilityTrailer}
               alt="utilityTrailer vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={trailer}
               alt="trailer vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={crane}
               alt="crane vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={topVan}
               alt="topVan vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={pickupTruck}
               alt="pickupTruck vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={utilityPickup}
               alt="utilityPickup vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={utilityTruck}
               alt="utilityTruck vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={suv}
               alt="suv vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={compactVan}
               alt="compactVan vehicles"
               priority
+              placeholder="blur"
             />
             <Image
               className="w-1/3 flex-shrink-0 md:w-2/3"
               src={cargoVan}
               alt="cargoVan vehicles"
               priority
+              placeholder="blur"
             />
           </div>
           <button className="block mx-auto text-white rounded-xl bg-[#339933] cursor-pointer font-semibold text-xl px-10 py-3 mb-20">
@@ -172,6 +185,7 @@ export default function Services() {
                   src={graphicDesignImage}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -218,6 +232,7 @@ export default function Services() {
                   src={commercialImage}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -232,6 +247,7 @@ export default function Services() {
                   src={cocoTruck}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -277,6 +293,7 @@ export default function Services() {
                   src={partialVehicle}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -290,6 +307,7 @@ export default function Services() {
                   src={lettringVehicle}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -334,6 +352,7 @@ export default function Services() {
                   src={spotGraphics}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -347,6 +366,7 @@ export default function Services() {
                   src={accidentRepair}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -391,6 +411,7 @@ export default function Services() {
                   src={seasonalVehicle}
                   alt="Graphic Design Image"
                   priority
+                  placeholder="blur"
                 />
               </div>
 
@@ -432,6 +453,7 @@ export default function Services() {
                 src={additionalBrandImage}
                 alt="additional branding service"
                 priority
+                placeholder="blur"
               />
             </div>
           </div>
@@ -455,12 +477,14 @@ export default function Services() {
                 src={wrapCarImage}
                 alt="Wrap Car image"
                 priority
+                placeholder="blur"
               />
               <Image
                 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2/2 w-3/4 h-1/2 object-cover"
                 src={confetti}
                 alt="confetti image"
                 priority
+                placeholder="blur"
               />
             </div>
           </div>

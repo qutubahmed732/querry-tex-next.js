@@ -100,6 +100,7 @@ export default function WorkPage() {
           <div className="rounded-2xl overflow-hidden">
             <Image
               priority
+              placeholder="blur"
               className="w-full h-full object-cover"
               src={car1}
               alt="car 1"
@@ -108,6 +109,7 @@ export default function WorkPage() {
           <div className="rounded-2xl overflow-hidden">
             <Image
               priority
+              placeholder="blur"
               className="w-full h-full object-cover"
               src={car2}
               alt="car 2"
@@ -115,6 +117,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car3}
@@ -123,6 +126,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car4}
@@ -131,6 +135,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car5}
@@ -139,6 +144,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car6}
@@ -147,6 +153,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car7}
@@ -155,6 +162,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car8}
@@ -163,6 +171,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car9}
@@ -171,6 +180,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car10}
@@ -179,6 +189,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car11}
@@ -187,6 +198,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car12}
@@ -196,6 +208,7 @@ export default function WorkPage() {
           <div className="rounded-2xl overflow-hidden">
             <Image
               priority
+              placeholder="blur"
               className="w-full h-full object-cover"
               src={car13}
               alt="car 13"
@@ -203,6 +216,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car14}
@@ -211,6 +225,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car15}
@@ -219,6 +234,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car16}
@@ -227,6 +243,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car17}
@@ -235,6 +252,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car18}
@@ -243,6 +261,7 @@ export default function WorkPage() {
           </div>
           <div className="rounded-2xl overflow-hidden col-span-2">
             <Image
+              placeholder="blur"
               priority
               className="w-full h-full object-cover"
               src={car19}
@@ -264,6 +283,7 @@ export default function WorkPage() {
           <div className="grid grid-cols-4 md:grid-cols-6 grid-rows-2 md:grid-rows-1 gap-1 md:gap-5 px-3 md:px-7">
             <div className="rounded-2xl overflow-hidden col-span-2 md:col-span-2">
               <Image
+              placeholder="blur"
                 priority
                 className="w-full h-full object-cover"
                 src={palazzoCar1}
@@ -272,6 +292,7 @@ export default function WorkPage() {
             </div>
             <div className="rounded-2xl overflow-hidden col-span-2 md:col-span-2">
               <Image
+              placeholder="blur"
                 priority
                 className="w-full h-full object-cover"
                 src={palazzoCar2}
@@ -280,6 +301,7 @@ export default function WorkPage() {
             </div>
             <div className="rounded-2xl overflow-hidden col-span-4 md:col-span-2">
               <Image
+              placeholder="blur"
                 priority
                 className="w-full h-full object-cover"
                 src={palazzoCar3}
@@ -295,6 +317,7 @@ export default function WorkPage() {
           <div className="grid grid-cols-2 grid-rows-1 gap-1 md:gap-5 px-3 md:px-7">
             <div className="rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 priority
                 className="w-full h-full object-cover"
                 src={dawson1}
@@ -303,6 +326,7 @@ export default function WorkPage() {
             </div>
             <div className="rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 priority
                 className="w-full h-full object-cover"
                 src={dawson2}
@@ -319,6 +343,7 @@ export default function WorkPage() {
           <div className="grid grid-cols-6 auto-rows-[200px] md:auto-rows-[350px] gap-[6px] md:gap-4 px-2 md:px-10">
             <div className="col-span-2 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={safeway1}
                 alt="dawson car 1"
@@ -327,6 +352,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={safeway2}
                 alt="dawson car 1"
@@ -335,6 +361,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={safeway3}
                 alt="dawson car 1"
@@ -343,6 +370,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={safeway4}
                 alt="dawson car 1"
@@ -351,6 +379,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={safeway5}
                 alt="dawson car 1"
@@ -366,6 +395,7 @@ export default function WorkPage() {
           <div className="grid grid-cols-6 auto-rows-[200px] md:auto-rows-[350px] gap-[6px] md:gap-4 px-2 md:px-10">
             <div className="col-span-2 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={starcom1}
                 alt="starcom car 1"
@@ -374,6 +404,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={starcom2}
                 alt="starcom car 2"
@@ -382,6 +413,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={starcom3}
                 alt="starcom car 3"
@@ -390,6 +422,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={starcom4}
                 alt="starcom car 4"
@@ -398,6 +431,7 @@ export default function WorkPage() {
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={starcom5}
                 alt="starcom car 5"
@@ -413,6 +447,7 @@ export default function WorkPage() {
           <div className="grid grid-cols-2 auto-rows-[250px] md:auto-rows-[350px] gap-[6px] md:gap-4 px-2 md:px-10">
             <div className="rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={naturescape1}
                 alt="starcom car 1"
@@ -421,6 +456,7 @@ export default function WorkPage() {
             </div>
             <div className="rounded-2xl overflow-hidden">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={naturescape2}
                 alt="starcom car 1"
@@ -436,6 +472,7 @@ export default function WorkPage() {
           <div className="px-2 md:px-10 grid grid-cols-12 grid-rows-[repeat(3,_250px)] md:grid-rows-[repeat(3,_300px)] gap-1 md:gap-5">
             <div className="overflow-hidden rounded-2xl col-span-4">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage1}
                 alt="starcom car 1"
@@ -444,6 +481,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage2}
                 alt="starcom car 1"
@@ -452,6 +490,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage3}
                 alt="starcom car 1"
@@ -460,6 +499,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage4}
                 alt="starcom car 1"
@@ -468,6 +508,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage5}
                 alt="starcom car 1"
@@ -476,6 +517,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage6}
                 alt="starcom car 1"
@@ -484,6 +526,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage7}
                 alt="starcom car 1"
@@ -492,6 +535,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage8}
                 alt="starcom car 1"
@@ -500,6 +544,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage9}
                 alt="starcom car 1"
@@ -508,6 +553,7 @@ export default function WorkPage() {
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
               <Image
+              placeholder="blur"
                 className="w-full h-full object-cover"
                 src={mazilliImage10}
                 alt="starcom car 1"

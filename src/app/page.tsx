@@ -42,6 +42,7 @@ export default function Home() {
           src={HeroImage}
           alt="Hero image"
           priority
+          placeholder="blur"
         />
         <div className="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl flex flex-col items-start gap-10 pl-6 md:pl-6">
           <h1 className="text-white text-5xl md:text-7xl font-bold uppercase">
@@ -65,6 +66,7 @@ export default function Home() {
                 className="w-full object-cover"
                 src={info}
                 alt="Information image"
+                placeholder="blur"
               />
             </div>
 
@@ -73,6 +75,7 @@ export default function Home() {
                 className="w-full object-cover"
                 src={options}
                 alt="options image"
+                placeholder="blur"
               />
             </div>
 
@@ -81,6 +84,7 @@ export default function Home() {
                 className="w-full object-cover"
                 src={schedule}
                 alt="schedule image"
+                placeholder="blur"
               />
             </div>
 
@@ -89,6 +93,7 @@ export default function Home() {
                 className="w-full object-cover"
                 src={wrap}
                 alt="wrap image"
+                placeholder="blur"
               />
             </div>
 
@@ -97,6 +102,7 @@ export default function Home() {
                 className="w-full object-cover"
                 src={guarantee}
                 alt="guarantee image"
+                placeholder="blur"
               />
             </div>
 
@@ -125,6 +131,7 @@ export default function Home() {
                 className="w-full h-full object-cover rounded-2xl"
                 src={sadan}
                 alt="sadan van"
+                placeholder="blur"
               />
             </div>
 
@@ -134,6 +141,7 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 src={commercial}
                 alt="commercial van"
+                placeholder="blur"
               />
             </div>
 
@@ -143,6 +151,7 @@ export default function Home() {
                 className="w-full h-full object-cover rounded-2xl"
                 src={compact}
                 alt="compact van"
+                placeholder="blur"
               />
             </div>
           </div>
@@ -168,6 +177,7 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 src={image1}
                 alt="sadan van"
+                placeholder="blur"
               />
             </div>
 
@@ -177,6 +187,7 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 src={image2}
                 alt="commercial van"
+                placeholder="blur"
               />
             </div>
 
@@ -186,6 +197,7 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 src={image3}
                 alt="compact van"
+                placeholder="blur"
               />
             </div>
 
@@ -194,6 +206,7 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 src={image4}
                 alt="compact van"
+                placeholder="blur"
               />
             </div>
 
@@ -202,6 +215,7 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 src={image5}
                 alt="compact van"
+                placeholder="blur"
               />
             </div>
           </div>
@@ -224,11 +238,13 @@ export default function Home() {
                 className="w-full h-full object-cover"
                 src={wrapCarImage}
                 alt="Wrap Car image"
+                placeholder="blur"
               />
               <Image
                 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2/2 w-3/4 h-1/2 object-cover"
                 src={confetti}
                 alt="confetti image"
+                placeholder="blur"
               />
             </div>
           </div>
@@ -303,6 +319,7 @@ export default function Home() {
               fill
               className="object-cover rounded-tl-[2rem] md:rounded-tl-[3rem] rounded-tr-[2rem] md:rounded-tr-[3rem]"
               priority
+              placeholder="blur"
             />
           </div>
         </section>
