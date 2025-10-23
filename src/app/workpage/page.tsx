@@ -284,7 +284,7 @@ export default function WorkPage() {
             <div className="rounded-2xl overflow-hidden col-span-2 md:col-span-2">
               <Image
               placeholder="blur"
-                priority
+                
                 className="w-full h-full object-cover"
                 src={palazzoCar1}
                 alt=""
@@ -293,7 +293,7 @@ export default function WorkPage() {
             <div className="rounded-2xl overflow-hidden col-span-2 md:col-span-2">
               <Image
               placeholder="blur"
-                priority
+                
                 className="w-full h-full object-cover"
                 src={palazzoCar2}
                 alt=""
@@ -302,7 +302,7 @@ export default function WorkPage() {
             <div className="rounded-2xl overflow-hidden col-span-4 md:col-span-2">
               <Image
               placeholder="blur"
-                priority
+                
                 className="w-full h-full object-cover"
                 src={palazzoCar3}
                 alt=""
@@ -318,7 +318,7 @@ export default function WorkPage() {
             <div className="rounded-2xl overflow-hidden">
               <Image
               placeholder="blur"
-                priority
+                
                 className="w-full h-full object-cover"
                 src={dawson1}
                 alt=""
@@ -327,7 +327,7 @@ export default function WorkPage() {
             <div className="rounded-2xl overflow-hidden">
               <Image
               placeholder="blur"
-                priority
+                
                 className="w-full h-full object-cover"
                 src={dawson2}
                 alt=""
@@ -347,7 +347,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={safeway1}
                 alt="dawson car 1"
-                priority
+                
               />
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
@@ -356,7 +356,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={safeway2}
                 alt="dawson car 1"
-                priority
+                
               />
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
@@ -365,7 +365,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={safeway3}
                 alt="dawson car 1"
-                priority
+                
               />
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
@@ -374,7 +374,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={safeway4}
                 alt="dawson car 1"
-                priority
+                
               />
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
@@ -383,7 +383,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={safeway5}
                 alt="dawson car 1"
-                priority
+                
               />
             </div>
           </div>
@@ -399,7 +399,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={starcom1}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
@@ -408,7 +408,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={starcom2}
                 alt="starcom car 2"
-                priority
+                
               />
             </div>
             <div className="col-span-2 rounded-2xl overflow-hidden">
@@ -417,7 +417,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={starcom3}
                 alt="starcom car 3"
-                priority
+                
               />
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
@@ -426,7 +426,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={starcom4}
                 alt="starcom car 4"
-                priority
+                
               />
             </div>
             <div className="col-span-3 rounded-2xl overflow-hidden">
@@ -435,7 +435,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={starcom5}
                 alt="starcom car 5"
-                priority
+                
               />
             </div>
           </div>
@@ -451,7 +451,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={naturescape1}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="rounded-2xl overflow-hidden">
@@ -460,7 +460,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={naturescape2}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
           </div>
@@ -476,7 +476,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage1}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
@@ -485,7 +485,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage2}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
@@ -494,7 +494,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage3}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
@@ -503,7 +503,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage4}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
@@ -512,7 +512,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage5}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
@@ -521,7 +521,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage6}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-3">
@@ -530,7 +530,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage7}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
@@ -539,7 +539,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage8}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
@@ -548,7 +548,7 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage9}
                 alt="starcom car 1"
-                priority
+                
               />
             </div>
             <div className="overflow-hidden rounded-2xl col-span-4">
@@ -557,7 +557,6 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={mazilliImage10}
                 alt="starcom car 1"
-                priority
               />
             </div>
           </div>
