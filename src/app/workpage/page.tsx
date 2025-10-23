@@ -42,6 +42,29 @@ import safeway3 from "../workpage/images/safeway-contracting/3.jpg";
 import safeway4 from "../workpage/images/safeway-contracting/4.jpg";
 import safeway5 from "../workpage/images/safeway-contracting/5.jpg";
 
+// starcom images
+import starcom1 from "../workpage/images/starcom-images/1.jpg";
+import starcom2 from "../workpage/images/starcom-images/2.jpg";
+import starcom3 from "../workpage/images/starcom-images/3.jpg";
+import starcom4 from "../workpage/images/starcom-images/4.jpg";
+import starcom5 from "../workpage/images/starcom-images/5.jpg";
+
+// naturescape images
+import naturescape1 from "../workpage/images/nature-escape-images/1.jpg";
+import naturescape2 from "../workpage/images/nature-escape-images/2.jpg";
+
+// Mazilli Mason Contractor
+import mazilliImage1 from "../workpage/images/Mazilli-Mason-Contractor/1.jpg";
+import mazilliImage2 from "../workpage/images/Mazilli-Mason-Contractor/2.jpg";
+import mazilliImage3 from "../workpage/images/Mazilli-Mason-Contractor/3.jpg";
+import mazilliImage4 from "../workpage/images/Mazilli-Mason-Contractor/4.jpg";
+import mazilliImage5 from "../workpage/images/Mazilli-Mason-Contractor/5.jpg";
+import mazilliImage6 from "../workpage/images/Mazilli-Mason-Contractor/6.jpg";
+import mazilliImage7 from "../workpage/images/Mazilli-Mason-Contractor/7.jpg";
+import mazilliImage8 from "../workpage/images/Mazilli-Mason-Contractor/8.jpg";
+import mazilliImage9 from "../workpage/images/Mazilli-Mason-Contractor/9.jpg";
+import mazilliImage10 from "../workpage/images/Mazilli-Mason-Contractor/10.jpg";
+
 export default function WorkPage() {
 
   return (
@@ -299,6 +322,146 @@ export default function WorkPage() {
                 className="w-full h-full object-cover"
                 src={safeway5}
                 alt="dawson car 1"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Safeway Contracting */}
+        <section className="flex flex-col gap-6 mt-10">
+          <h1 className="text-left md:text-center text-3xl md:text-4xl font-bold pl-3 md:pl-0">Star Com Fiber</h1>
+          <div className="grid grid-cols-6 auto-rows-[200px] md:auto-rows-[350px] gap-[6px] md:gap-4 px-2 md:px-10">
+            <div className="col-span-2 rounded-2xl overflow-hidden">
+              <Image
+                className="w-full h-full object-cover"
+                src={starcom1}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="col-span-2 rounded-2xl overflow-hidden">
+              <Image
+                className="w-full h-full object-cover"
+                src={starcom2}
+                alt="starcom car 2"
+              />
+            </div>
+            <div className="col-span-2 rounded-2xl overflow-hidden">
+              <Image
+                className="w-full h-full object-cover"
+                src={starcom3}
+                alt="starcom car 3"
+              />
+            </div>
+            <div className="col-span-3 rounded-2xl overflow-hidden">
+              <Image
+                className="w-full h-full object-cover"
+                src={starcom4}
+                alt="starcom car 4"
+              />
+            </div>
+            <div className="col-span-3 rounded-2xl overflow-hidden">
+              <Image
+                className="w-full h-full object-cover"
+                src={starcom5}
+                alt="starcom car 5"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Naturescape lighting and audio */}
+        <section className="flex flex-col gap-5 mt-10">
+          <h1 className="text-left md:text-center text-3xl md:text-4xl font-bold pl-3 md:pl-0">NatureScape Lighting & Audio</h1>
+          <div className="grid grid-cols-2 auto-rows-[250px] md:auto-rows-[350px] gap-[6px] md:gap-4 px-2 md:px-10">
+            <div className="rounded-2xl overflow-hidden">
+              <Image
+                className="w-full h-full object-cover"
+                src={naturescape1}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden">
+              <Image
+                className="w-full h-full object-cover"
+                src={naturescape2}
+                alt="starcom car 1"
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* Mazilli Mason Contractors */}
+        <section className="flex flex-col gap-5 mt-10">
+          <h1 className="text-left md:text-center text-3xl md:text-4xl font-bold pl-3 md:pl-0">Mazzilli Mason Contractors</h1>
+          <div className="px-2 md:px-10 grid grid-cols-12 grid-rows-[repeat(3,_250px)] md:grid-rows-[repeat(3,_300px)] gap-1 md:gap-5">
+            <div className="overflow-hidden rounded-2xl col-span-4">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage1}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-4">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage2}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-4">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage3}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-3">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage4}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-3">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage5}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-3">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage6}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-3">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage7}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-4">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage8}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-4">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage9}
+                alt="starcom car 1"
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl col-span-4">
+              <Image
+                className="w-full h-full object-cover"
+                src={mazilliImage10}
+                alt="starcom car 1"
               />
             </div>
           </div>
