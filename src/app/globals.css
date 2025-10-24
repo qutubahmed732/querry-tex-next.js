@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+    --img-width: clamp(150px, 75vw, 500px);
+}
+
 .logo-small-size {
     @media(max-width: 1034px) {
         width: 130px;
@@ -15,6 +19,7 @@
 
 .flex-direction {
     flex-direction: row;
+
     @media(max-width: 1043px) {
         flex-direction: column;
     }
@@ -22,6 +27,7 @@
 
 .flex-direction-reverse {
     flex-direction: row;
+
     @media(max-width: 1043px) {
         flex-direction: column-reverse;
     }
@@ -29,6 +35,7 @@
 
 .flex-direction {
     flex-direction: row;
+
     @media(max-width: 1043px) {
         flex-direction: column;
     }
@@ -36,6 +43,7 @@
 
 .display-none {
     display: block;
+
     @media(max-width: 1043px) {
         display: none;
     }
@@ -44,6 +52,7 @@
 .width-change-1043 {
     padding-top: 80px;
     width: 60%;
+
     @media(max-width:1043px) {
         width: 100%;
     }
@@ -52,6 +61,7 @@
 
 .width-change {
     width: 40%;
+
     @media(max-width:1043px) {
         width: 100%;
     }
@@ -59,6 +69,7 @@
 
 .change-width {
     width: 50%;
+
     @media(max-width: 1043px) {
         width: 100%;
     }
@@ -77,9 +88,12 @@
 
 .align-items-stretch {
     align-self: center;
+
     @media(max-width: 1043px) {
         align-self: stretch;
     }
 }
+
+
 
 /* background: linear-gradient(360deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 76.99%); */

@@ -44,7 +44,7 @@ export default function Navbar() {
           <ul className="hidden md:flex items-center gap-10 text-white text-xl font-semibold nav-font-small">
             <li className={`cursor-pointer ${pathname === "/services" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../services">Services</Link></li>
             <li className={`cursor-pointer ${pathname === "/workpage" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../workpage">Our Work</Link></li>
-            <li className={`cursor-pointer ${pathname === "/process" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Process</li>
+            <li className={`cursor-pointer ${pathname === "/home" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>home</li>
             <li className={`cursor-pointer ${pathname === "/careers" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Careers</li>
             <li className={`cursor-pointer ${pathname === "/getaquote" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Get a Quote</li>
           </ul>
