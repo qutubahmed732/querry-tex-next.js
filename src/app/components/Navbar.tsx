@@ -51,7 +51,7 @@ export default function Navbar() {
           </ul>
 
           <div className="social hidden md:flex items-center gap-5 text-white font-semibold nav-font-small">
-            <span className="cursor-pointer">Contact &nbsp;| </span>
+            <span className="cursor-pointer"><Link href="../contact">Contact</Link> &nbsp;| </span>
             <span className="flex gap-4">
               <Phone className="fill-white text-white size-5 cursor-pointer" />
               <SiFacebook className="fill-white text-white bg-green-500 size-5 rounded-sm cursor-pointer" />
@@ -89,7 +89,7 @@ export default function Navbar() {
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../workpage">Our Work</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Process</li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Careers</li>
-              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Contact</li>
+              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../contact">Contact</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Get a Quote</li>
             </ul>
           </div>
