@@ -20,7 +20,6 @@ export default function FAQSection() {
                     <h1 className="text-white text-5xl md:text-6xl font-bold text-left md:text-center max-w-5xl leading-tight">
                         Quarry Tex Vehicle Wraps – FAQ
                     </h1>
-
                 </section>
 
             </header>

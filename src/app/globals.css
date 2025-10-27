@@ -94,6 +94,31 @@
     }
 }
 
+/* LAYOUT FOR CONTACT PAGE */
+
+.contact-flex-direction {
+    flex-direction: row;
+    gap: 40px;
+
+    @media(max-width: 920px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.width-40-on-920px {
+    width: 40%;
+    @media(Max-width: 920px) {
+        width: 100%;
+    }
+}
+.width-60-on-920px {
+    width: 60%;
+    @media(Max-width: 920px) {
+        width: 100%;
+    }
+}
+
 
 
 /* background: linear-gradient(360deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 76.99%); */

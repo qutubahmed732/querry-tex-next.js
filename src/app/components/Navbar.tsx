@@ -5,7 +5,8 @@ import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import logo from "../landingpage-images/logo.png";
-import { Phone, Facebook, Instagram, MenuSquare, X } from "lucide-react";
+import { Phone, MenuSquare, X } from "lucide-react";
+import { SiFacebook, SiInstagram } from "react-icons/si";
 
 
 export default function Navbar() {
@@ -53,8 +54,8 @@ export default function Navbar() {
             <span className="cursor-pointer">Contact &nbsp;| </span>
             <span className="flex gap-4">
               <Phone className="fill-white text-white size-5 cursor-pointer" />
-              <Facebook className="fill-white text-white bg-green-500 size-5 rounded-sm cursor-pointer" />
-              <Instagram className="text-white size-5 rounded-sm cursor-pointer" />
+              <SiFacebook className="fill-white text-white bg-green-500 size-5 rounded-sm cursor-pointer" />
+              <SiInstagram className="text-white size-5 rounded-sm cursor-pointer" />
             </span>
           </div>
 
@@ -95,8 +96,8 @@ export default function Navbar() {
 
           <div className="flex items-center justify-center gap-8 font-semibold mt-5">
             <Phone className="size-10 cursor-pointer" />
-            <Facebook className="size-10 rounded-sm cursor-pointer" />
-            <Instagram className="size-10 rounded-sm cursor-pointer" />
+            <SiFacebook className="size-10 rounded-sm cursor-pointer" />
+            <SiInstagram className="size-10 rounded-sm cursor-pointer" />
           </div>
         </aside>
       </nav>
