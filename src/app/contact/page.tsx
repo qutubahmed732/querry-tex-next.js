@@ -10,8 +10,6 @@ import { SiPinterest, SiFacebook, SiInstagram } from "react-icons/si";
 import { UploadCloud   } from "lucide-react";
 
 
-
-
 export default function ContactUs() {
 
   return (
@@ -32,15 +30,15 @@ export default function ContactUs() {
         <div className="rounded-xl bg-white py-3 px-2 flex contact-flex-direction items-stretch justify-between">
 
           {/* left side */}
-          <div className="width-40-on-920px flex flex-col justify-between">
+          <div className="width-40-on-920px flex flex-col justify-between gap-5 md:gap-0">
 
             <div className="flex flex-col gap-4">
 
-              <div className="pl-10 py-5 text-white bg-green-600 font-bold text-2xl rounded-t-2xl">
+              <div className="pl-4 md:pl-10 py-5 text-white bg-green-600 font-bold text-2xl rounded-t-2xl">
                 <p>Quarry Tex <br /> Your hub for vehicle wraps <br /> in NJ.</p>
               </div>
 
-              <div className="pl-10 font-semibold flex flex-col gap-1">
+              <div className="pl-4 md:pl-10 font-semibold flex flex-col gap-1">
                 <p>info@quarrytex.com/wraps</p>
                 <p>1998 US HWY 22 SCOTCH PLAINS NJ 07076</p>
                 <p>908-322-8488</p>
@@ -48,7 +46,7 @@ export default function ContactUs() {
 
             </div>
 
-            <div className="flex flex-col gap-3 pl-10 pb-8">
+            <div className="flex flex-col gap-3 pl-4 md:pl-10 pb-8">
               <p>Follow us for wrap ideas</p>
 
               <span className="flex items-center gap-4">
@@ -62,8 +60,8 @@ export default function ContactUs() {
           </div>
 
           {/* right side */}
-          <div className="width-60-on-920px py-10">
-            <div className="flex flex-col gap-10">
+          <div className="width-60-on-920px py-5 md:py-10">
+            <div className="px-2 flex flex-col gap-10">
 
               <div className="flex flex-col md:flex-row gap-10 *:w-full"> {/* first label div */}
 
