@@ -34,7 +34,7 @@ export default function ContactUs() {
 
             <div className="flex flex-col gap-4">
 
-              <div className="pl-4 md:pl-10 py-5 text-white bg-green-600 font-bold text-2xl rounded-t-2xl">
+              <div className="pl-4 md:pl-10 py-5 text-white bg-green-600 font-bold text-xl md:text-2xl rounded-t-2xl">
                 <p>Quarry Tex <br /> Your hub for vehicle wraps <br /> in NJ.</p>
               </div>
 

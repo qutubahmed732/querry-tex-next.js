@@ -87,7 +87,7 @@ export default function Navbar() {
             <ul className="flex flex-col items-center gap-5 text-xl font-semibold p-3">
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../services">Services</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../workpage">Our Work</Link></li>
-              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Process</li>
+              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Home</li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Careers</li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../contact">Contact</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Get a Quote</li>
