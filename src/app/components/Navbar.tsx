@@ -54,7 +54,7 @@ export default function Navbar() {
             <span className="cursor-pointer"><Link href="../contact">Contact</Link> &nbsp;| </span>
             <span className="flex gap-4">
               <Phone className="fill-white text-white size-5 cursor-pointer" />
-              <SiFacebook className="fill-white text-white bg-green-500 size-5 rounded-sm cursor-pointer" />
+              <SiFacebook className="fill-blue-800 bg-white size-5 rounded-full cursor-pointer" />
               <SiInstagram className="text-white size-5 rounded-sm cursor-pointer" />
             </span>
           </div>
