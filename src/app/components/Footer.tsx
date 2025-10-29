@@ -37,7 +37,7 @@ export default function Footer() {
                         <ul className="w-1/2 flex flex-col gap-4">
                             <li>Get a Quote</li>
                             <li><Link href="./contact-us">Contact Us</Link></li>
-                            <li>Terms of Services</li>
+                            <li><Link href="./terms-of-service">Terms of Services</Link></li>
                             <li><Link href="./privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </div>
