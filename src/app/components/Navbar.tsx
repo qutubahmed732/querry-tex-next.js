@@ -47,7 +47,7 @@ export default function Navbar() {
             <li className={`cursor-pointer ${pathname === "/workpage" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../workpage">Our Work</Link></li>
             <li className={`cursor-pointer ${pathname === "/home" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>home</li>
             <li className={`cursor-pointer ${pathname === "/careers" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Careers</li>
-            <li className={`cursor-pointer ${pathname === "/getaquote" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Get a Quote</li>
+            <li className={`cursor-pointer ${pathname.includes("/get-a-quote") ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../get-a-quote">Get a Quote</Link></li>
           </ul>
 
           <div className="social hidden md:flex items-center gap-5 text-white font-semibold nav-font-small">
@@ -90,7 +90,7 @@ export default function Navbar() {
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Home</li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Careers</li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../contact-us">Contact</Link></li>
-              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Get a Quote</li>
+              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../get-a-quote">Get a Quote</Link></li>
             </ul>
           </div>
 
