@@ -21,7 +21,7 @@ export default function Quote_2() {
       <main className="bg-[#eee] py-5 md:py-15 px-3">
         <div className="p-5 md:p-10 max-w-4xl mx-auto bg-white rounded-3xl">
 
-          <h1 className="md:w-2/3 text-xl md:text-3xl text-black font-bold text-balance text-center mb-8 mx-auto">
+          <h1 className="md:w-2/3 text-xl md:text-3xl text-black font-bold text-pretty text-center mb-8 mx-auto">
             Get a fast, personalized quote for your vehicle or Fleets wrap.
           </h1>
 
