@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Checkbox_Custom from "@/app/components/checkbox-custom";
 
 
 import Image from "next/image"
@@ -10,8 +11,8 @@ export default function Quote_4() {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
   const wrap = [
-    { id: 1, text: "Flat" },
-    { id: 2, text: "Contour" },
+    { id: 1, text: "Basic" },
+    { id: 2, text: "Custom" },
     { id: 3, text: "Complex" }
   ];
 
@@ -34,26 +35,9 @@ export default function Quote_4() {
                   <div
                     key={item.id}
                     onClick={() => setActiveIndex(index)}
-                    className={`p-2 rounded-sm font-semibold ${activeIndex === index ? "bg-green-600/30 outline-3 outline-green-600" : "bg-transparent outline-3 outline-gray-200 text-black hover:bg-gray-300"}`}>
-                    <div
-                      className={`ml-auto w-6 h-6 flex items-center justify-center rounded-full border-2 transition-all duration-300 ${activeIndex === index
-                        ? "border-green-500 bg-green-500"
-                        : "border-gray-300 bg-white"
-                        }`}
-                    >
-                      {activeIndex === index && (
-                        <svg
-                          className="w-3 h-3 text-white"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="3"
-                          viewBox="0 0 24 24"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                        </svg>
-                      )}
-                    </div>
-                    <h1 className="text-center">{item.text}</h1>
+                    className={`relative p-2 rounded-sm font-semibold ${activeIndex === index ? "bg-green-600/30 outline-3 outline-green-600 text-green-600" : " bg-transparent outline-3 outline-gray-200 text-black hover:bg-gray-300"}`}>
+                    <Checkbox_Custom isActive={activeIndex === index} />
+                    <h1 className="text-center py-3">{item.text}</h1>
                   </div>
                 ))
               }
