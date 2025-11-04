@@ -177,7 +177,7 @@ export default function Services() {
 
           <div className="flex flex-col gap-10 md:gap-20">
 
-            <div className="flex flex-direction-reverse items-center md:items-stretch px-5">
+            <div className="flex flex-direction-reverse items-center md:items-start px-5">
 
               <div className="change-width h-full flex-shrink-0 border border-gray-300 rounded-2xl">
                 <Image
@@ -202,11 +202,10 @@ export default function Services() {
                 </ul>
               </div>
 
-
             </div>
 
 
-            <div className="flex flex-direction items-center md:items-stretch px-5">
+            <div className="flex flex-direction items-center md:items-start px-5">
 
               <div className="change-width flex flex-col justify-center gap-8 p-5">
 
@@ -239,7 +238,7 @@ export default function Services() {
             </div>
 
 
-            <div className="flex flex-direction-reverse items-center md:items-stretch px-5">
+            <div className="flex flex-direction-reverse items-center md:items-start px-5">
 
               <div className="change-width h-full flex-shrink-0">
                 <Image
@@ -264,10 +263,9 @@ export default function Services() {
                 </ul>
               </div>
 
-
             </div>
 
-            <div className="flex flex-direction items-center md:items-stretch px-5">
+            <div className="flex flex-direction items-center md:items-start px-5">
 
               <div className="change-width flex flex-col justify-center gap-8 p-5">
 
@@ -299,7 +297,7 @@ export default function Services() {
 
             </div>
 
-            <div className="flex flex-direction-reverse items-center md:items-stretch px-5">
+            <div className="flex flex-direction-reverse items-center md:items-start px-5">
 
               <div className="change-width h-full flex-shrink-0">
                 <Image
@@ -324,10 +322,9 @@ export default function Services() {
                 </ul>
               </div>
 
-
             </div>
 
-            <div className="flex flex-direction items-center md:items-stretch px-5">
+            <div className="flex flex-direction items-center md:items-start px-5">
 
               <div className="change-width flex flex-col justify-center gap-8 p-5">
 
@@ -358,7 +355,7 @@ export default function Services() {
 
             </div>
 
-            <div className="flex flex-direction-reverse items-center md:items-stretch px-5">
+            <div className="flex flex-direction-reverse items-center md:items-start px-5">
 
               <div className="change-width h-full flex-shrink-0">
                 <Image
@@ -383,10 +380,9 @@ export default function Services() {
                 </ul>
               </div>
 
-
             </div>
 
-            <div className="flex flex-direction items-center md:items-stretch px-5">
+            <div className="flex flex-direction items-center md:items-start px-5">
 
               <div className="change-width flex flex-col justify-center gap-8 p-5">
 
@@ -460,7 +456,7 @@ export default function Services() {
         </section>
 
         {/* Wrap section */}
-        <section className="py-15 md:py-5 px-5 md:px-10 flex flex-col md:flex-row items-center md:items-center gap-10 md:gap-0">
+        <section className="py-15 md:py-5 px-5 md:px-10 flex flex-col md:flex-row items-center gap-10 md:gap-0">
           <div className="w-full md:w-[40%] text-balance flex flex-col items-start gap-5">
             <h1 className="text-left text-4xl md:text-5xl font-semibold">
               NJ&apos;s Vehicle Wrap Hub

@@ -74,6 +74,13 @@
         width: 100%;
     }
 }
+.change-height {
+    height: 450px;
+
+    @media(max-width: 1043px) {
+        height: auto;
+    }
+}
 
 .no-scrollbar::-webkit-scrollbar {
     display: none;

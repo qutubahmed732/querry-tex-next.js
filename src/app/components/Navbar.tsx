@@ -46,7 +46,7 @@ export default function Navbar() {
             <li className={`cursor-pointer ${pathname === "/services" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../services">Services</Link></li>
             <li className={`cursor-pointer ${pathname === "/workpage" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../workpage">Our Work</Link></li>
             <li className={`cursor-pointer ${pathname === "/home" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>home</li>
-            <li className={`cursor-pointer ${pathname === "/careers" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}>Careers</li>
+            <li className={`cursor-pointer ${pathname === "/career" ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../career">Careers</Link></li>
             <li className={`cursor-pointer ${pathname.includes("/get-a-quote") ? "underline decoration-green-600 decoration-2 underline-offset-6" : ""}`}><Link href="../get-a-quote">Get a Quote</Link></li>
           </ul>
 
@@ -88,7 +88,7 @@ export default function Navbar() {
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../services">Services</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../workpage">Our Work</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Home</li>
-              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl">Careers</li>
+              <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../career">Careers</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../contact-us">Contact</Link></li>
               <li className="cursor-pointer py-4 bg-[#012C12] text-[#039d67] w-full text-center rounded-2xl"><Link href="../get-a-quote">Get a Quote</Link></li>
             </ul>
