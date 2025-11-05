@@ -8,11 +8,11 @@ import { Phone } from "lucide-react";
 import location from "../landingpage-images/location.png";
 import gmail from "../landingpage-images/gmail.png";
 
-export default function Footer() {
+export default function Footer({ className = "block" }) {
 
     return (
         <>
-            <footer className="bg-[#339933] text-white px-5 md:px-15 pt-15 pb-10">
+            <footer className={`bg-[#339933] text-white px-5 md:px-15 pt-15 pb-10 ${className}`}>
                 <div className="flex flex-direction justify-between gap-10">
 
                     {/* Left */}

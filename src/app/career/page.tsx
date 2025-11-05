@@ -3,6 +3,7 @@ import Toptext from "../components/TopText";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 // lucide-react
 import { Check } from "lucide-react";
@@ -152,7 +153,7 @@ export default function Career() {
 
             <div className="flex flex-col md:flex-row md:items-center md:gap-5">
               <button className="mt-6 bg-[#339933] hover:bg-[#16A34A] text-white font-semibold px-6 py-3 rounded transition-colors duration-400">
-                Explore Careers
+                <Link href="../form">Apply Now</Link>
               </button>
               <button className="mt-6 bg-tranparent hover:bg-[#16A34A] text-[#339933] hover:text-white border border-green-600 font-semibold px-6 py-3 rounded transition-colors duration-400">
                 Schedule a Shop Visit
