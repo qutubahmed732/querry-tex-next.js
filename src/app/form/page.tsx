@@ -1,14 +1,7 @@
 "use client";
-import BackToTopButton from "../components/BacktotopBtn";
-import Image from "next/image";
 import Link from "next/link";
 import Checkbox_Custom from "../components/checkbox-custom";
-import Footer from "../components/Footer";
 import { useState } from "react";
-
-import heroImage from "./heroImage.png";
-import logo from "./logo.png";
-
 
 export default function Form() {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
@@ -36,21 +29,6 @@ export default function Form() {
 
   return (
     <>
-      <header className="flex items-center justify-center w-full h-[550px] md:h-[400px] bg-no-repeat bg-cover bg-center" style={{ backgroundImage: `url(${heroImage.src})` }}>
-        <div className="flex flex-col justify-center items-center gap-3">
-          <Link href="../career" className="">
-            <Image
-              src={logo}
-              alt="logo image"
-              width={200}
-              height={200}
-              priority
-            />
-          </Link>
-          <h1 className="text-5xl md:text-7xl text-white text-center px-4 font-bold leading-15 md:leading-20">Vehicle Wraps Made Simple.</h1>
-        </div>
-      </header>
-
       <main className="bg-[#eee] py-10 px-3 md:px-20">
         <div className="w-full md:max-w-5xl mx-auto bg-white flex flex-col gap-4 rounded-2xl py-5">
           <h1 className="hidden md:block px-5 text-2xl md:text-[40px] font-bold text-center w-full md:max-w-3xl mx-auto">Commercial Vehicle & Fleets Wrap Intake Form</h1>
@@ -205,31 +183,34 @@ export default function Form() {
                 <input className="placeholder:text-[#222] border border-t-0 border-l-0 border-r-0 outline-none p-1" type="text" id="CompletionDate/Time" placeholder="10:00 AM - 12/09/2025" />
               </div>
 
-              <hr className="border border-[#eee]" />
+            </div>
+            <hr className="border border-[#eee] mt-5" />
+          </div>
+
+          {/* Contact Info */}
+          <div className="flex flex-col px-5 md:px-10">
+            <div className="flex flex-col gap-4">
+              <h3 className="text-2xl font-semibold">Contact Info</h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-1 gap-10 py-10">
+              <div className="flex flex-col gap-2">
+                <label htmlFor="Name" className="text-md font-medium">Name</label>
+                <input className="placeholder:text-[#222] border border-t-0 border-l-0 border-r-0 outline-none p-1" type="text" id="Name" placeholder="John Doe" />
+              </div>
+              <div className="flex flex-col gap-2">
+                <label htmlFor="Phone" className="text-md font-medium">Phone</label>
+                <input className="placeholder:text-[#222] border border-t-0 border-l-0 border-r-0 outline-none p-1" type="telephone" id="Phone" placeholder="908-322-8488" />
+              </div>
+              <div className="flex flex-col gap-2">
+                <label htmlFor="Email" className="text-md font-medium">Email</label>
+                <input className="placeholder:text-[#222] border border-t-0 border-l-0 border-r-0 outline-none p-1" type="email" id="Email" placeholder="john@domain.com" />
+              </div>
             </div>
           </div>
 
+          <Link href="/form/Thank-you" className="bg-[#339933] text-white font-semibold w-[92%] py-3 mx-auto rounded"><button className="mx-auto block">Next</button></Link>
         </div>
       </main>
-
-      <footer className="hidden md:block bg-green-600 w-full">
-        <div className="flex justify-around items-center gap-3 py-5">
-          <Link href="../career">
-            <Image
-              src={logo}
-              alt="logo image"
-              width={150}
-              height={150}
-              priority
-            />
-          </Link>
-          <p className="text-white text-center">
-            Copyright © 2025 Quarry Tex. All rights reserved.
-          </p>
-        </div>
-      </footer>
-      <Footer className="block md:hidden" />
-      <BackToTopButton />
     </>
   )
 }
